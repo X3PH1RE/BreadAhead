@@ -2,8 +2,6 @@
 
 **An explainable early warning system for credit risk.** BreadAhead watches how each borrower's behaviour changes after a loan is made: repayments, cash flow, borrowing and, for small businesses, business health. It flags deterioration before a default, explains every point of its score, recommends who should act and by when, and keeps an append-only record of every analyst decision.
 
-Built for the Azentio Hackathon 2026 (*AI for Credit Risk Intelligence*).
-
 ![Overview](docs/images/overview.png)
 
 ## What it does
@@ -160,7 +158,3 @@ tests/          automated tests
 - There is no authentication yet. Analysts enter their name in Settings; production needs SSO and role-based access.
 - Core banking, credit bureau and account-aggregator integrations, and scheduled re-scoring, are not built.
 - The front end is designed for laptop and desktop widths.
-
-## Team
-
-Ashwin Menon and Tanmay Bhandari.
